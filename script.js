@@ -5,7 +5,7 @@ banner.addEventListener('mousemove', (e) => {
   const x = e.clientX - left; // Mouse X position relative to the banner
   const y = e.clientY - top;  // Mouse Y position relative to the banner
 
-  const maskSize = 500; // Match the mask size defined in your CSS
+  const maskSize = 600; // Match the mask size defined in your CSS
 
   // Center the mask around the cursor
   const maskX = x - maskSize / 2;
